@@ -7,9 +7,11 @@ class Main extends Component {
   }
 
   render() {
+    console.tron.log("adsa");
+
     return (
       <View>
-        <Text>React Native Boilerplate</Text>
+        <Text>Inshallah!</Text>
       </View>
     );
   }
