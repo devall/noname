@@ -1,9 +1,12 @@
-import { StackNavigator } from 'react-navigation';
+import React from "react";
+import { View, Text } from "react-native";
+import { createStackNavigator, createAppContainer } from "react-navigation";
+import MainScreen from "./containers/Main"; 
 
-import Main from './components/Main';
-
-const BaseNavigation = StackNavigator({
-  Main: { screen: Main },
-});
-
-export default BaseNavigation;
+const AppNavigator = createStackNavigator({
+    Main: {
+      screen: MainScreen
+    }
+  });
+  
+export default createAppContainer(AppNavigator);

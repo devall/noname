@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 
-class Main extends Component {
+class MainScreen extends Component {
   static navigationOptions = {
     title: 'Main',
   }
 
   render() {
-    console.tron.log("adsa");
 
     return (
       <View>
@@ -17,4 +16,4 @@ class Main extends Component {
   }
 }
 
-export default Main;
+export default MainScreen;
